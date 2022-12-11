@@ -1,0 +1,52 @@
+body {
+  font-size: 20px;
+}
+
+.eu_steden-item_title {
+  cursor: pointer;
+  background-color: #BC8F8F;
+  padding: 15px;
+}
+
+.eu_steden_content {
+  color: #FFD700;
+}
+
+.eu_steden-item_title:hover {
+  background-color: #E0FFFF;
+  color: #BC8F8F;
+  text-decoration: underline;
+}
+
+.eu_steden-item:first-child .eu_steden-item_title {
+  border-radius: 15px 15px 0 0;
+}
+
+.eu_steden-item:last-child .eu_steden-item_title {
+  border-radius: 0 0 15px 15px;
+}
+
+img {
+  width: 50%;
+  height: 300px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+footer:first-child {
+  border-radius: 15px;
+}
+
+#verberg {
+  color: red;
+  padding: 5px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+#toon {
+  color: green;
+  padding: 5px;
+  border-radius: 10px;
+  width: 120px;
+}
